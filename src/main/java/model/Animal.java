@@ -14,10 +14,24 @@ public class Animal {
         this.tipo = tipo;
     }
 
+    public Animal() {
+
+    }
+
     public int getId() { return id; }
     public String getNome() { return nome; }
     public int getIdade() { return idade; }
     public String getTipo() { return tipo; }
 
     public void setNome(String nome) { this.nome = nome; }
+
+    public void setId(int id) {
+    }
+
+    public void setTipo(String tipo) {
+    }
+
+    public void setIdade(int idade) {
+
+    }
 }
